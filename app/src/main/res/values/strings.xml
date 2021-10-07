@@ -1,0 +1,19 @@
+<resources>
+    <string name="login_header">Login</string>
+    <string name="registration_header">Registration</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_user_register">SIGN UP</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register_title">Registration</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="success">SUCCESS</string>
+    <string name="empty_credentials">Please enter both your Email and Password to login</string>
+    <string name="login_success_message">Login Successful</string>
+    <string name="login_error_message">ERROR: Please enter correct Email and Password</string>
+    <string name="field_blank">One or more fields left blank</string>
+    <string name="register_success">Registration Successful\nRedirecting to Login Page</string>
+    <string name="todo">TODO</string>
+</resources>

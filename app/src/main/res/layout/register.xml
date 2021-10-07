@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textColorHint="#FFFF00" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFF00" />
+
+    <EditText
+        android:id="@+id/PhNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="phone|number"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textColorHint="#FFFF00"
+        tools:ignore="TextContrastCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFF00" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textColorHint="#FFFF00"
+        tools:ignore="TextContrastCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFF00" />
+
+    <EditText
+        android:id="@+id/Pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textColorHint="#FFFF00"
+        tools:ignore="TextContrastCheck" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFF00" />
+
+    <Button
+        android:id="@+id/Register_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/register"
+        android:textColor="#0000ff" />
+
+    <Button
+        android:id="@+id/Login_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/back_to_login"
+        android:textColor="#0000ff" />
+
+
+
+</LinearLayout>
